@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Приколи з модалками</title>
+    <link rel="stylesheet" href="twostyle.css" />
+  </head>
+  <body>
+    <button id="openModalBtn">
+      Я така чудова кнопка яка відкриє першу модалку
+    </button>
+
+    <div id="firstModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeFirstModalBtn">&times;</span>
+        <h2>Перша модалка</h2>
+
+        <button id="openSecondModalBtn">А я можу відкрити другу модалку</button>
+      </div>
+    </div>
+
+    <div id="secondModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeSecondModalBtn">&times;</span>
+        <h2>Я друга модалка</h2>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
